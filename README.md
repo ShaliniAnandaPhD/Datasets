@@ -10,9 +10,8 @@ This section provides an overview of the datasets available for each domain.Fina
 
 Utility Scripts
 
-To help manage the datasets, this repository includes several utility scripts.archive_datasets.pyLocation: scripts/archive_datasets.pyPurpose: This script provides a command-line tool to create timestamped .zip archives of the dataset directories. This is essential for versioning, backups, and ensuring the reproducibility of tests.Usage:# Archive a specific domain's data
+To help manage the datasets, this repository includes several utility scripts.archive_datasets.pyLocation: scripts/archive_datasets.pyPurpose: This script provides a command-line tool to create timestamped .zip archives of the dataset directories. This is essential for versioning, backups, and ensuring the reproducibility of tests.
 
-python scripts/archive_datasets.py --source_dir data/legal
 
 How to Contribute
 
